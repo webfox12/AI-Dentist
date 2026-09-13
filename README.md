@@ -1,38 +1,26 @@
 # Dentwise
 
-<div align="center">
-  <img src="/public/screenshot-for-readme.png" alt="Dentwise app preview" width="1200" />
-</div>
+A modern dental care platform for appointment booking, subscriptions, and AI-powered patient support.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.js-15.5.0-black?logo=next.js&logoColor=white" alt="Next.js 15" />
-  <img src="https://img.shields.io/badge/TypeScript-5-blue?logo=typescript&logoColor=white" alt="TypeScript 5" />
-  <img src="https://img.shields.io/badge/Prisma-6.16.2-2D3748?logo=prisma&logoColor=white" alt="Prisma" />
-  <img src="https://img.shields.io/badge/Tailwind-CSS-38B2AC?logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Clerk-Auth-6A5CFF?logo=clerk&logoColor=white" alt="Clerk" />
-</p>
+## Overview
 
-A modern dental care platform that helps patients book appointments, manage subscriptions, and interact with an AI-powered voice assistant for a seamless healthcare experience.
+Dentwise is a full-stack healthcare application designed for dental clinics. It includes patient-friendly appointment booking, secure login, admin management, automated email communication, and AI voice assistance.
 
-## ✨ Overview
+The project is built to demonstrate practical product development, modern frontend design, and backend integration for a college placement portfolio.
 
-Dentwise is a full-stack healthcare booking application built for dental clinics. It combines patient-friendly appointment flows, secure authentication, automated email communication, admin management, and AI support into a single platform.
+## Key Features
 
-This project was designed to showcase practical product thinking, full-stack development, and modern UI/UX execution for a college placement portfolio.
-
-## 🚀 Key Features
-
-- Smart appointment booking flow for patients
-- Secure authentication with Clerk
-- Email verification and booking confirmation emails
-- Admin dashboard for managing appointments and doctors
-- AI voice assistant integration for proactive support
+- Appointment booking flow for patients
+- Authentication and user management with Clerk
+- Email verification and confirmation notifications
+- Admin dashboard for managing doctors and appointments
+- AI voice assistant integration
 - Subscription plans with upgrade logic
-- PostgreSQL database integration using Prisma
-- Responsive design with Tailwind CSS and Shadcn UI
-- Real-time app experience using TanStack Query
+- PostgreSQL database using Prisma
+- Responsive UI built with Tailwind CSS and Shadcn
+- Client-side data handling with TanStack Query
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 | Category       | Stack                      |
 | -------------- | -------------------------- |
@@ -46,16 +34,16 @@ This project was designed to showcase practical product thinking, full-stack dev
 | Data Fetching  | TanStack Query             |
 | Deployment     | Sevalla                    |
 
-## 📌 How It Works
+## How It Works
 
-1. Users browse the landing page and explore services.
-2. They sign in or create an account using Clerk.
-3. Patients choose a doctor, preferred time slot, and confirm the appointment.
-4. Email notifications are sent automatically for confirmations.
-5. Admins can monitor and manage bookings from the dashboard.
-6. Pro users can access the AI voice assistant for guided support.
+1. Users browse the platform and explore available services.
+2. Patients sign in or create an account.
+3. They select a doctor, time slot, and confirm an appointment.
+4. Confirmation emails are sent automatically.
+5. Admins manage bookings and clinic data from the dashboard.
+6. Premium users can access the AI voice assistant for guided support.
 
-## 🧪 Environment Setup
+## Environment Setup
 
 Create a `.env.local` file and add the following:
 
@@ -75,20 +63,20 @@ RESEND_API_KEY=your_resend_api_key
 NEXT_PUBLIC_APP_URL=your_app_url
 ```
 
-## ▶️ Run Locally
+## Run Locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-Then open:
+Open the app in your browser at:
 
 ```bash
 http://localhost:3000
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 .
@@ -106,24 +94,24 @@ http://localhost:3000
 └── .env.local
 ```
 
-## 🎯 Project Highlights
+## Project Highlights
 
 - Built as a modern SaaS-style healthcare product
-- Focused on customer experience and operational workflows
-- Includes both user and admin perspectives
-- Suitable for showcasing full-stack problem-solving skills
+- Focused on user experience and operational workflow
+- Includes both patient and admin perspectives
+- Demonstrates full-stack development and product thinking
 
-## 💡 Future Improvements
+## Future Improvements
 
 - Add patient dashboard and appointment history
-- Integrate payment gateway for real transactions
-- Expand AI voice workflows for triage and reminders
-- Add analytics and reporting for clinics
+- Integrate a payment gateway for real transactions
+- Expand AI voice workflows for reminders and triage
+- Add analytics and reporting for clinic performance
 
-## 🙌 Conclusion
+## Conclusion
 
-Dentwise is a polished full-stack application that demonstrates practical product building, UI/UX design, backend logic, and AI integration. It is a strong project to present during college placements or internship interviews.
+Dentwise is a polished full-stack application that demonstrates practical product building, UI design, backend logic, and AI integration. It is suitable for showcasing your technical skills during college placements or internship interviews.
 
 ---
 
-Made with care for a modern dental healthcare experience.
+Dentwise Project
